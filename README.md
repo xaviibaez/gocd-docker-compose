@@ -12,6 +12,8 @@
 1. Clone the repo
 2. From inside the repo run `docker-compose up` or `docker-compose up -d` to run in daemon mode
 3. Wait for a few minutes
+   - The server will take a few minutes to start up and register the agents
+   - The agents will take a few minutes to register with the server
 4. Access the GoCD server at `http://<hostname>:8153`
 5. To stop the stack use `docker-compose down`  
 
